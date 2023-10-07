@@ -167,7 +167,7 @@ languageCode = "en-us"
     GitHub = "antcompile"
     Linkedin = "anthonytrad"
     Medium = "@anthony-trad"
-    Patreon = "rollercoder"
+    # Patreon = "rollercoder"
     BuyMeACoffee = "anthonytrad"
     RSS = true # 
 
