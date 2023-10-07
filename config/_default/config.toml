@@ -7,9 +7,9 @@ languageCode = "en-us"
   #  DoIt theme version
   version = "0.3.X"
   # website title
-  title = "Anthony"
+  title = "Anthony's Blog 🌿"
   # site description
-  description = "Tech Blogs 🌿"
+  description = "Software and Tech Blog"
   keywords = ["Theme", "Hugo"]
   defaultTheme = "auto"
   gitRepo = "https://github.com/antcompile"
@@ -36,13 +36,13 @@ languageCode = "en-us"
     [params.search.fuse]
       isCaseSensitive = false
       minMatchCharLength = 2
-      findAllMatches = false
+      findAllMatches = true
       location = 0
       threshold = 0.3
       distance = 100
-      ignoreLocation = false
-      useExtendedSearch = false
-      ignoreFieldNorm = false
+      ignoreLocation = true
+      useExtendedSearch = true
+      ignoreFieldNorm = true
   # Header config
   [params.header]
     desktopMode = "fixed"
@@ -51,9 +51,9 @@ languageCode = "en-us"
     #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/personal-logo.svg"
+      logo = ""
       # title name
-      name = "Logo title"
+      name = "Anthony Trad"
       pre = ""
       post = ""
       typeit = true
@@ -63,8 +63,6 @@ languageCode = "en-us"
     enable = true
     custom = ''
     hugo = false
-    #  Hosted on (HTML format is supported)
-    hostedOn = '<a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>'
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
@@ -113,15 +111,15 @@ languageCode = "en-us"
       # URL the avatar links to
       avatarLinkURL = "www.anthonytrad.me"
       #  title shown in home page (HTML format is supported)
-      title = "Yet Another Pragmatic Tech Blog"
+      title = "Yet Another Pragmatic Tech Blog 🍵"
       # subtitle shown in home page
-      subtitle = "Software, Tech, Cloud and more"
+      subtitle = "Software, Tech, Cloud and more 💻"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
       social = true
       #  disclaimer (HTML format is supported)
-      disclaimer = "Opinions are my own :)"
+      disclaimer = "🧧 Opinions are my own :)"
     # Home page posts
     [params.home.posts]
       enable = true
@@ -133,12 +131,11 @@ languageCode = "en-us"
 
   # Social config about the author
   [params.social]
-    GitHub = "https://github.com/antcompile"
-    Linkedin = "https://www.linkedin.com/in/anthonytrad/"
-    Medium = "https://anthony-trad.medium.com/"
-    Patreon = "patreon.com/rollercoder"
-    BuyMeACoffee = "https://www.buymeacoffee.com/anthonytrad"
-    Email = "anthony.d.trad@gmail.com"
+    GitHub = "antcompile"
+    Linkedin = "anthonytrad"
+    Medium = "@anthony-trad"
+    Patreon = "rollercoder"
+    BuyMeACoffee = "anthonytrad"
     RSS = true # 
 
   #  Page config
@@ -158,9 +155,9 @@ languageCode = "en-us"
     #  whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
+    linkToMarkdown = false
     #  configure the link to report issue for the post
-    linkToReport = true
+    linkToReport = false
     rssFullText = false
     seriesNavigation = true
     # whether to enable last modified time
