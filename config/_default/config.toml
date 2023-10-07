@@ -142,7 +142,7 @@ languageCode = "en-us"
       # The filepath is relative to the static or assets directory
       avatarURL = "avatar.png"
       # URL the avatar links to
-      avatarLinkURL = "www.anthonytrad.me"
+      avatarLinkURL = ""
       #  title shown in home page (HTML format is supported)
       title = "Software Projects, Blogs and more 🍵"
       # subtitle shown in home page
