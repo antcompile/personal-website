@@ -1,5 +1,5 @@
 baseURL = "https://anthonytrad.me/"
-title = "Anthony's Blog 🌿"
+title = "Anthony's 🌿"
 theme = "DoIt"
 languageName = "English"
 languageCode = "en-us"
@@ -9,7 +9,8 @@ languageCode = "en-us"
   [[menu.main]]
     weight = 1
     identifier = "posts"
-    name = "Posts 📝"
+    name = "Posts"
+    post = "📝"
     url = "/posts/"
     title = ""
   [[menu.main]]
@@ -39,7 +40,7 @@ languageCode = "en-us"
   #  DoIt theme version
   version = "0.3.X"
   # website title
-  title = "Anthony's Blog 🌿"
+  title = "Anthony's 🌿"
   # site description
   description = "Software and Tech Blog"
   keywords = ["Theme", "Hugo"]
@@ -49,7 +50,7 @@ languageCode = "en-us"
   license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Anthony Trad"
+    title = "Anthony's 🌿"
     noFavicon = false
     svgFavicon = ""
     iconColor = "#5bbad5"
@@ -85,9 +86,9 @@ languageCode = "en-us"
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Anthony Trad"
+      name = "Anthony's"
       pre = ""
-      post = ""
+      post = "🌿"
       typeit = true
 
   # Footer config
@@ -139,13 +140,13 @@ languageCode = "en-us"
       # URL of avatar shown in home page
       # Place your avatar file under static or assets directory
       # The filepath is relative to the static or assets directory
-      avatarURL = ""
+      avatarURL = "avatar.png"
       # URL the avatar links to
       avatarLinkURL = "www.anthonytrad.me"
       #  title shown in home page (HTML format is supported)
-      title = "Yet Another Pragmatic Tech Blog 🍵"
+      title = "Software Projects, Blogs and more 🍵"
       # subtitle shown in home page
-      subtitle = "Software, Tech, Cloud and more 💻"
+      subtitle = "Code On, Aim Practical 🏃‍♂️"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
